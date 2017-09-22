@@ -12,9 +12,9 @@
         "litecoin",
         "scrypt"
     ],
-    "homepage": "https://github.com/joshuayabut/node-stratum-pool",
+    "homepage": "https://github.com/MaxHero/minex-node-stratum-pool",
     "bugs": {
-        "url": "https://github.com/joshuayabut/node-stratum-pool/issues"
+        "url": "https://github.com/MaxHero/minex-node-stratum-pool/issues"
     },
     "license": "GPL-2.0",
     "author": "Matthew Little",
@@ -25,15 +25,15 @@
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/joshuayabut/node-stratum-pool.git"
+        "url": "https://github.com/MaxHero/minex-node-stratum-pool.git"
     },
     "dependencies": {
-        "equihashverify": "git+https://github.com/joshuayabut/equihashverify.git",
+        "equihashverify": "git+https://github.com/MaxHero/minexequihashverify.git",
         "bignum": "*",
         "base58-native": "*",
         "async": "*",
         "merkle-bitcoin": "git+https://github.com/joshuayabut/merkle-bitcoin.git",
-        "bitcoinjs-lib-zcash": "git+https://github.com/runn1ng/bitcoinjs-lib.git#zcash",
+        "bitcoinjs-lib-zcash": "git+https://github.com/MaxHero/bitcoinjs-lib.git#minexcoin",
         "promise": "*"
     },
     "engines": {
