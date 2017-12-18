@@ -34,7 +34,8 @@
         "async": "*",
         "merkle-bitcoin": "git+https://github.com/joshuayabut/merkle-bitcoin.git",
         "bitcoinjs-lib-zcash": "git+https://github.com/runn1ng/bitcoinjs-lib.git#zcash",
-        "promise": "*"
+        "promise": "*",
+        "zeromq": "^4.6.0"
     },
     "engines": {
         "node": ">=7"
